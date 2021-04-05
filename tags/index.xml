@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on LegionOS Blog</title>
+    <link>https://legionos-devices.github.io/tags/</link>
+    <description>Recent content in Tags on LegionOS Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><atom:link href="https://legionos-devices.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maintaining OFFICIALLY</title>
+      <link>https://legionos-devices.github.io/tags/maintaining-officially/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://legionos-devices.github.io/tags/maintaining-officially/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>March Patch</title>
+      <link>https://legionos-devices.github.io/tags/march-patch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://legionos-devices.github.io/tags/march-patch/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

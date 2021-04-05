@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maintaining OFFICIALLY on LegionOS Blog</title>
+    <link>https://legionos-devices.github.io/tags/maintaining-officially/</link>
+    <description>Recent content in Maintaining OFFICIALLY on LegionOS Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><atom:link href="https://legionos-devices.github.io/tags/maintaining-officially/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build Flags</title>
+      <link>https://legionos-devices.github.io/content/post/2021-03-30-flags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://legionos-devices.github.io/content/post/2021-03-30-flags/</guid>
+      <description>Some important flags to include in build:  To include GApps in your builds execute this command:  export WITH_GAPPS=true or add the flag WITH_GAPPS := true in ur legion_.mk
+• By default only basic packages are gonna be include with core gapps &amp;amp; Playstore, Playservices,GoogleDialer,GoogleMessages,GoogleContacts,CalculatorGoogle,CalendarGoogle,GoogleClock,Wellbeing
+• For including stock gapps packages, execute export TARGET_INCLUDE_STOCK_GAPPS=true or add the flag TARGET_INCLUDE_STOCK_GAPPS := true in ur legion_.mk
+• Also in addition to this&amp;hellip; If any apps you would like to get it removed in gapps, just add</description>
+    </item>
+    
+    <item>
+      <title>Code Of Conduct</title>
+      <link>https://legionos-devices.github.io/content/post/2021-03-30-codeofconduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://legionos-devices.github.io/content/post/2021-03-30-codeofconduct/</guid>
+      <description>Maintainers conduct notes: The key words &amp;ldquo;MUST&amp;rdquo;, &amp;ldquo;MUST NOT&amp;rdquo;, &amp;ldquo;REQUIRED&amp;rdquo;, &amp;ldquo;SHALL&amp;rdquo;, &amp;ldquo;SHALL NOT&amp;rdquo;, &amp;ldquo;SHOULD&amp;rdquo;, &amp;ldquo;SHOULD NOT&amp;rdquo;, &amp;ldquo;RECOMMENDED&amp;rdquo;, &amp;ldquo;MAY&amp;rdquo;, and &amp;ldquo;OPTIONAL&amp;rdquo; in this document are to be interpreted as described in RFC 2119.
+The maintainers:
+  MUST NOT get involved in arguments or resort to insults, or use hateful words, personal attacks or any other verbal or nonverbal action that is considered detrimental towards the creation of a positive environment for the team.</description>
+    </item>
+    
+    <item>
+      <title>Device Requirements</title>
+      <link>https://legionos-devices.github.io/content/post/2021-03-29-devicerequirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://legionos-devices.github.io/content/post/2021-03-29-devicerequirements/</guid>
+      <description>Device Requirements The key words &amp;ldquo;MUST&amp;rdquo;, &amp;ldquo;MUST NOT&amp;rdquo;, &amp;ldquo;REQUIRED&amp;rdquo;, &amp;ldquo;SHALL&amp;rdquo;, &amp;ldquo;SHALL NOT&amp;rdquo;, &amp;ldquo;SHOULD&amp;rdquo;, &amp;ldquo;SHOULD NOT&amp;rdquo;, &amp;ldquo;RECOMMENDED&amp;rdquo;, &amp;ldquo;MAY&amp;rdquo;, and &amp;ldquo;OPTIONAL&amp;rdquo; in this document are to be interpreted as described in RFC 2119.
+Exceptions SHOULD be made by contacting the administration team.
+  The device MUST be using an ARM 64-bit software base. ARM 32-bit devices are no longer supported from our side.
+  The device MUST have SELinux Enforcing to release builds.</description>
+    </item>
+    
+    <item>
+      <title>Kernel Guidelines</title>
+      <link>https://legionos-devices.github.io/content/post/2021-03-30-kernelguidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://legionos-devices.github.io/content/post/2021-03-30-kernelguidelines/</guid>
+      <description>Kernel Guidelines: The following aren&amp;rsquo;t allowed to be added into kernel sources:
+ OC/UC/UV, not mattering whether it&amp;rsquo;s for display, GPU or CPU. Any changes regarding charging voltages. Magisk/App Blocker without the need to block toxic modules like FDE.AI. Blocking TikTok/any similar app isn&amp;rsquo;t allowed either. Boeffla Wakelock Blocker. Wakelocks exists for a reason. The removal of those that are harmful for the device isnt allowed. Scheduler restrictions don&amp;rsquo;t apply. However, that doesn&amp;rsquo;t mean we don&amp;rsquo;t look/care about all the possible crappy schedulers you pushed.</description>
+    </item>
+    
+    <item>
+      <title>Maintaining of LegionOS</title>
+      <link>https://legionos-devices.github.io/content/post/2021-03-29-maintainer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://legionos-devices.github.io/content/post/2021-03-29-maintainer/</guid>
+      <description>To become a maintainer of LegionOS: Before you apply to add your device into our list of official devices, you should know a few things:
+Any failure in following the instructions given below will make you unfit for the maintainership. No questions asked.
+1 - You must own the device. Blind and untested builds aren&amp;rsquo;t allowed. Devices that have minimal hardware difference from yours are allowed to be maintained, as long as you maintain your own device too.</description>
+    </item>
+    
+    <item>
+      <title>Pull Requests</title>
+      <link>https://legionos-devices.github.io/content/post/2021-03-30-prs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://legionos-devices.github.io/content/post/2021-03-30-prs/</guid>
+      <description>Places to raise pull requests: 1 - You must make a Pull request HERE for others to know who and what you do {Do align it properly}
+2 - You must make a Pull request HERE for you to build official {Do it in alphabetical order}
+3- Also make sure to make a Pull request HERE for it to show your name in our maintainers section {Refer some previous commits and do it properly}</description>
+    </item>
+    
+  </channel>
+</rss>

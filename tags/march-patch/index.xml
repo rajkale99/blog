@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>March Patch on LegionOS Blog</title>
+    <link>https://legionos-devices.github.io/tags/march-patch/</link>
+    <description>Recent content in March Patch on LegionOS Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><atom:link href="https://legionos-devices.github.io/tags/march-patch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LegionOS Version - 3.7</title>
+      <link>https://legionos-devices.github.io/content/post/2021-03-21-themarchpatch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://legionos-devices.github.io/content/post/2021-03-21-themarchpatch/</guid>
+      <description>Hope everyone is enjoying their weekend.
+Here we are coming back again to bother you with a new release of Legion v3.7
+So, let’s see what all we got fixed &amp;amp; What’s new -:
+* Updated New wallpapers in the Lpapers app * Update to march security patch * New updater app UI * Imply force redfin(Pixel 5) fingerprint * Add qs tile styles customization * Add qs header customization * Introduce Extreme battery saver * Enable IORap by default * Downscale high-res-tasks * Update prebuilt apks * Updated gapps to Latest March * Fixed a case where bubble chats were crashing * Fixed a case where Data usage wasnt visible * Moved Data usage to qs * Add proximity check on wake * Enable some lock screen shortcuts by default * Some Dependency updates * Minor fixes and updates Many Other Device Side Changes.</description>
+    </item>
+    
+  </channel>
+</rss>
